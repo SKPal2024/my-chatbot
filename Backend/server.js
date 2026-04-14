@@ -15,7 +15,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-const NEWS_API_KEY = "660690a3568e46b694b53e91933c1c96"; 
+const NEWS_API_KEY = "your own API key"; 
 const NEWS_ENDPOINT = "https://newsapi.org/v2/everything";
 
 // -------------------------------
